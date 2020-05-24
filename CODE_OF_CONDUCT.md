@@ -1,3 +1,7 @@
+---
+title: Matroska Project's Code Of Conduct
+---
+
 # Contributor Covenant Code of Conduct (+added text)
 
 ## Our Pledge

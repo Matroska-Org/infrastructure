@@ -1,0 +1,20 @@
+# Site settings
+title: Matroska Website
+email:
+description:
+baseurl: ""
+url: https://www.matroska.org
+twitter_username: MatroskaOrg
+github_username:
+
+# Build settings
+markdown: kramdown
+
+exclude: [
+]
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"

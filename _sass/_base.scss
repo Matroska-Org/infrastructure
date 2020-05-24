@@ -202,3 +202,73 @@ pre {
         }
     }
 }
+
+/**
+ * Matroska specification table
+ */
+.techdef table{
+  font-family:sans-serif;
+  background:#fff;
+  margin:0;
+  padding:0;
+}
+
+.techdef th{
+  font-size:larger;
+  border:5px solid #ddd;
+  background:#eee;
+  padding:.5em 0 .5em 0;
+  margin:0;
+}
+
+.techdef tr{
+  margin:0;
+  padding:0;
+}
+
+.techdef td{
+  margin:0;
+  border:1px solid #eee;
+  padding:2px;
+}
+
+.techdef .level0{
+  background:#fff;
+}
+
+.techdef .level1{
+  background:#eff;
+}
+
+.techdef .level2{
+  background:#eef;
+}
+
+.techdef .level3{
+  background:#dde;
+}
+
+.techdef .level4{
+  background:#ccd;
+}
+
+.techdef .level5{
+  background:#bbc;
+}
+
+.techdef .level6{
+  background:#aab;
+}
+
+.techdef .level7{
+  background:#99a;
+}
+
+.techdef .level8{
+  background:#889;
+}
+
+.version2{
+  color:#aaa;
+  background:#eee;
+}

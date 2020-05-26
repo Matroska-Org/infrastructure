@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Tags SYSTEM "matroskatags.dtd">
+<Tags>
+    <!-- collection http://www.discogs.com/release/70919 of http://www.discogs.com/release/72561 and http://www.discogs.com/release/157518-->
+    <Tag>
+        <Targets>
+            <TargetTypeValue>70</TargetTypeValue>
+        </Targets>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Big Beat Elite</String>
+        </Simple>
+        <Simple>
+            <Name>TOTAL_PARTS</Name>
+            <String>3</String> <!-- the amount of elements at the lower level which is 60=edition/volume -->
+        </Simple>
+        <Simple>
+            <Name>LABEL</Name>
+            <String>Lacerba</String>
+        </Simple>
+    </Tag>
+    <!-- edition -->
+    <Tag>
+        <Targets>
+            <TargetTypeValue>60</TargetTypeValue>
+        </Targets>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Big Beat Elite</String>
+        </Simple>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>1</String>
+        </Simple>
+        <Simple>
+            <Name>TOTAL_PARTS</Name>
+            <String>3</String> <!-- the amount of elements at the lower level which is 50=album/disc -->
+        </Simple>
+        <Simple>
+            <Name>DATE_RELEASE</Name>
+            <String>1997</String>
+        </Simple>
+    </Tag>
+    <!-- album -->
+    <Tag>
+        <Targets>
+            <TargetTypeValue>50</TargetTypeValue>
+        </Targets>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>2</String>
+        </Simple>
+        <Simple>
+            <Name>TOTAL_PARTS</Name>
+            <String>10</String> <!-- the amount of elements at the lower level which is 30=tracks -->
+        </Simple>
+    </Tag>
+    <!-- tracks -->
+    <Tag>
+        <Targets>
+            <TargetTypeValue>30</TargetTypeValue>
+            <ChapterUID>123456</ChapterUID>
+        </Targets>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>1</String>
+        </Simple>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Run On The Spot</String>
+        </Simple>
+        <Simple>
+            <Name>ARTIST</Name>
+            <String>Bentley Rhythm Ace</String>
+        </Simple>
+    </Tag>
+    <Tag>
+        <Targets>
+            <TargetTypeValue>30</TargetTypeValue>
+            <ChapterUID>234567</ChapterUID>
+        </Targets>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>2</String>
+        </Simple>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Donuts With Buddah</String>
+        </Simple>
+        <Simple>
+            <Name>ARTIST</Name>
+            <String>Eboman</String>
+        </Simple>
+    </Tag>
+    <!-- ... -->
+</Tags>

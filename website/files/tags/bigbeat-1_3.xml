@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tags SYSTEM "matroskatags.dtd">
+<Tags>
+    <!-- collection http://www.discogs.com/release/70919 of http://www.discogs.com/release/72561 and http://www.discogs.com/release/157518-->
+    <Tag>
+        <Targets>
+            <TargetTypeValue>70</TargetTypeValue>
+        </Targets>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Big Beat Elite</String>
+        </Simple>
+        <Simple>
+            <Name>TOTAL_PARTS</Name>
+            <String>3</String> <!-- the amount of elements at the lower level which is 60=edition/volume -->
+        </Simple>
+        <Simple>
+            <Name>LABEL</Name>
+            <String>Lacerba</String>
+        </Simple>
+    </Tag>
+    <!-- edition -->
+    <Tag>
+        <Targets>
+            <TargetTypeValue>60</TargetTypeValue>
+        </Targets>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Big Beat Elite</String>
+        </Simple>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>1</String>
+        </Simple>
+        <Simple>
+            <Name>TOTAL_PARTS</Name>
+            <String>3</String> <!-- the amount of elements at the lower level which is 50=album/disc -->
+        </Simple>
+        <Simple>
+            <Name>DATE_RELEASE</Name>
+            <String>1997</String>
+        </Simple>
+    </Tag>
+    <!-- album -->
+    <Tag>
+        <Targets>
+            <TargetTypeValue>50</TargetTypeValue>
+        </Targets>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>3</String>
+        </Simple>
+        <Simple>
+            <Name>MIXED_BY</Name>
+            <String>Smudge & Chunks</String>
+        </Simple>
+        <Simple>
+            <Name>TOTAL_PARTS</Name>
+            <String>20</String> <!-- the amount of elements at the lower level which is 30=tracks -->
+        </Simple>
+    </Tag>
+    <!-- tracks -->
+    <Tag>
+        <Targets>
+            <TargetTypeValue>30</TargetTypeValue>
+            <ChapterUID>123456</ChapterUID>
+        </Targets>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>1</String>
+        </Simple>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Why Hawaii?</String>
+        </Simple>
+        <Simple>
+            <Name>SUBTITLE</Name>
+            <String>Original Formula Mix</String>
+        </Simple>
+        <Simple>
+            <Name>ARTIST</Name>
+            <String>Alëem</String>
+        </Simple>
+    </Tag>
+    <Tag> <!-- this track is a remix -->
+        <Targets>
+            <TargetTypeValue>30</TargetTypeValue>
+            <ChapterUID>234567</ChapterUID>
+        </Targets>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>2</String>
+        </Simple>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Filthy</String>
+        </Simple>
+        <Simple>
+            <Name>SUBTITLE</Name>
+            <String>Monkey Mafia Mix</String>
+        </Simple>
+        <Simple>
+            <Name>ARTIST</Name>
+            <String>Saint Etienne</String>
+        </Simple>
+        <Simple>
+            <Name>REMIXED_BY</Name>
+            <String>Monkey Mafia</String>
+        </Simple>
+    </Tag>
+    <!-- ... -->
+</Tags>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Tags SYSTEM "matroskatags.dtd">
+<Tags>
+    <!-- album http://www.discogs.com/release/8788 -->
+    <Tag>
+        <Targets>
+            <TargetTypeValue>50</TargetTypeValue>
+        </Targets>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Bleep To Bleep</String>
+        </Simple>
+        <Simple>
+            <Name>ARTIST</Name>
+            <String>The Micronauts</String>
+        </Simple>
+        <Simple>
+            <Name>TOTAL_PARTS</Name>
+            <String>6</String>
+        </Simple>
+        <Simple>
+            <Name>DATE_RELEASE</Name>
+            <String>2000-03</String>
+        </Simple>
+    </Tag>
+    <!-- tracks -->
+    <Tag>
+        <Targets>
+            <TargetTypeValue>30</TargetTypeValue>
+            <ChapterUID>123456</ChapterUID>
+            <ChapterUID>234567</ChapterUID>
+            <ChapterUID>345678</ChapterUID>
+            <ChapterUID>456789</ChapterUID>
+        </Targets>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Baby Wants To Bleep/Rock</String>
+        </Simple>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>1</String>
+        </Simple>
+    </Tag>
+    <Tag>
+        <Targets>
+            <TargetTypeValue>20</TargetTypeValue>
+            <ChapterUID>123456</ChapterUID>
+        </Targets>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Baby Wants To Bleep Pt. 1</String>
+        </Simple>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>1</String>
+        </Simple>
+    </Tag>
+    <Tag>
+        <Targets>
+            <TargetTypeValue>20</TargetTypeValue>
+        </Targets>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Baby Wants To Rock</String>
+        </Simple>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>2</String>
+        </Simple>
+    </Tag>
+    <Tag>
+        <Targets>
+            <TargetTypeValue>20</TargetTypeValue>
+        </Targets>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Baby Wants To Bleep Pt. 2</String>
+        </Simple>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>3</String>
+        </Simple>
+    </Tag>
+    <Tag>
+        <Targets>
+            <TargetTypeValue>20</TargetTypeValue>
+        </Targets>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Baby Wants To Bleep Pt. 3</String>
+        </Simple>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>4</String>
+        </Simple>
+    </Tag>
+    <Tag>
+        <Targets>
+            <TargetTypeValue>30</TargetTypeValue>
+            <ChapterUID>567890</ChapterUID>
+        </Targets>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Bleeper_0+2</String>
+        </Simple>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>5</String>
+        </Simple>
+    </Tag>
+    <Tag>
+        <Targets>
+            <TargetTypeValue>30</TargetTypeValue>
+            <ChapterUID>678901</ChapterUID>
+        </Targets>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Baby Wants To Bleep Pt. 4</String>
+        </Simple>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>6</String>
+        </Simple>
+    </Tag>
+    <Tag>
+        <Targets>
+            <TargetTypeValue>30</TargetTypeValue>
+            <ChapterUID>789012</ChapterUID>
+        </Targets>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Bleep To Bleep</String>
+        </Simple>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>7</String>
+        </Simple>
+    </Tag>
+    <Tag>
+        <Targets>
+            <TargetTypeValue>30</TargetTypeValue>
+            <ChapterUID>890123</ChapterUID>
+        </Targets>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Baby Wants To Bleep [k]</String>
+        </Simple>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>8</String>
+        </Simple>
+    </Tag>
+    <Tag>
+        <Targets>
+            <TargetTypeValue>30</TargetTypeValue>
+            <ChapterUID>901234</ChapterUID>
+        </Targets>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Bleeper</String>
+        </Simple>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>9</String>
+        </Simple>
+    </Tag>
+</Tags>

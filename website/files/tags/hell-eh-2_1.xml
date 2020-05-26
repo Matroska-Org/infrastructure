@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Tags SYSTEM "matroskatags.dtd">
+<Tags>
+    <!-- album http://www.discogs.com/release/63287 -->
+    <Tag>
+        <Targets>
+            <TargetTypeValue>50</TargetTypeValue>
+        </Targets>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Electronicbody-Housemusic</String>
+        </Simple>
+        <Simple>
+            <Name>MIXED_BY</Name>
+            <String>DJ Hell</String>
+        </Simple>
+        <Simple>
+            <Name>TOTAL_PARTS</Name>
+            <String>2</String> <!-- the amount of elements at the lower level which is 40=session -->
+        </Simple>
+        <Simple>
+            <Name>DATE_RELEASE</Name>
+            <String>2002-10-28</String>
+        </Simple>
+        <Simple>
+            <Name>LABEL</Name>
+            <String>React</String>
+        </Simple>
+    </Tag>
+    <!-- session/disc -->
+    <Tag>
+        <Targets>
+            <TargetTypeValue>40</TargetTypeValue>
+        </Targets>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Electronic House</String>
+        </Simple>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>2</String> <!-- disc/mix/session 2 -->
+        </Simple>
+        <Simple>
+            <Name>TOTAL_PARTS</Name>
+            <String>16</String>
+        </Simple>
+    </Tag>
+    <!-- track -->
+    <Tag>
+        <Targets>
+            <TargetTypeValue>30</TargetTypeValue>
+        </Targets>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>S-Channel (Radio Broadcast Mix)</String>
+        </Simple>
+        <Simple>
+            <Name>ARTIST</Name>
+            <String>German Broadcasters</String>
+        </Simple>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>1</String>
+        </Simple>
+    </Tag>
+</Tags>

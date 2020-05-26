@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Tags SYSTEM "matroskatags.dtd">
+<Tags>
+    <!-- The Simpsons season 1 in 1 file -->
+    <Tag> <!-- show -->
+        <Targets>
+            <TargetTypeValue>70</TargetTypeValue>
+        </Targets>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>The Simpsons</String>
+        </Simple>
+    </Tag>
+
+    <Tag> <!-- season -->
+        <Targets>
+            <TargetTypeValue>60</TargetTypeValue>
+        </Targets>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>1</String> <!-- season number -->
+        </Simple>
+        <Simple>
+            <Name>DATE_RELEASE</Name>
+            <String>1989</String>
+        </Simple>
+        <Simple>
+            <Name>TOTAL_PARTS</Name>
+            <String>8</String> <!-- number of lower level 50=episodes -->
+        </Simple>
+    </Tag>
+
+    <Tag> <!-- 1st episode -->
+        <Targets>
+            <TargetTypeValue>50</TargetTypeValue>
+            <ChapterUID>123</ChapterUID>
+        </Targets>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>1</String>
+        </Simple>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>The Simpsons Family</String>
+        </Simple>
+    </Tag>
+    <Tag> <!-- episode intro -->
+        <Targets>
+            <TargetTypeValue>30</TargetTypeValue>
+            <ChapterUID>963</ChapterUID> <!-- the intro is the same for episode 1 & episode 2, so we target both chapters -->
+            <ChapterUID>159</ChapterUID>
+        </Targets>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>episode intro</String>
+        </Simple>
+    </Tag>
+    <Tag> <!-- episode #1 content -->
+        <Targets>
+            <TargetTypeValue>30</TargetTypeValue>
+            <ChapterUID>852</ChapterUID>
+        </Targets>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>episode 1 conten</String>
+        </Simple>
+    </Tag>
+
+    <Tag> <!-- 2nd episode -->
+        <Targets>
+            <TargetTypeValue>50</TargetTypeValue>
+            <ChapterUID>234</ChapterUID>
+        </Targets>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>2</String>
+        </Simple>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>The Simpsons 2nd round</String>
+        </Simple>
+    </Tag>
+
+    <Tag> <!-- 3rd episode -->
+        <Targets>
+            <TargetTypeValue>50</TargetTypeValue>
+            <ChapterUID>345</ChapterUID>
+        </Targets>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>3</String>
+        </Simple>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Homer is lazy</String>
+        </Simple>
+    </Tag>
+
+    <Tag> <!-- 4th episode -->
+        <Targets>
+            <TargetTypeValue>50</TargetTypeValue>
+            <ChapterUID>456</ChapterUID>
+        </Targets>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>4</String>
+        </Simple>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Bart is naughty</String>
+        </Simple>
+    </Tag>
+
+    <Tag> <!-- 5th episode -->
+        <Targets>
+            <TargetTypeValue>50</TargetTypeValue>
+            <ChapterUID>567</ChapterUID>
+        </Targets>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>5</String>
+        </Simple>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Lisa goes to school</String>
+        </Simple>
+    </Tag>
+    <!-- ... -->
+</Tags>

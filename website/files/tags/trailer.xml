@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Tags SYSTEM "matroskatags.dtd">
+<Tags>
+    <Tag> <!-- show -->
+        <Targets>
+            <TargetTypeValue>70</TargetTypeValue>
+        </Targets>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Dexter</String>
+        </Simple>
+        <Simple>
+            <Name>COPYRIGHT</Name>
+            <String>ShowTime</String>
+            <Simple>
+                <Name>URL</Name>
+                <String>http://www.sho.com/</String>
+            </Simple>
+        </Simple>
+    </Tag>
+
+    <Tag> <!-- season -->
+        <Targets>
+            <TargetTypeValue>60</TargetTypeValue>
+        </Targets>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>5</String> <!-- season number -->
+        </Simple>
+        <Simple>
+            <Name>DATE_RELEASE</Name>
+            <String>2010</String>
+        </Simple>
+    </Tag>
+
+    <Tag> <!-- trailer -->
+        <Targets>
+            <TargetTypeValue>50</TargetTypeValue>
+        </Targets>
+        <Simple>
+            <Name>SAMPLE</Name>
+            <Simple>
+                <Name>PART_NUMBER</Name>
+                <String>0</String>
+            </Simple>
+            <Simple>
+                <Name>TITLE</Name>
+                <String>Trailer</String>
+            </Simple>
+        </Simple>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Dexter Season 5 trailer</String>
+        </Simple>
+        <Simple>
+            <Name>ORIGINAL</Name>
+            <Simple>
+                <Name>URL</Name>
+                <String>http://www.youtube.com/watch?v=CUbCMbW-BRE</String>
+            </Simple>
+        </Simple>
+    </Tag>
+</Tags>

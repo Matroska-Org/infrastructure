@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Tags SYSTEM "matroskatags.dtd">
+<Tags>
+    <!-- The Simpsons season 1 episode 5-8 in 1 file -->
+    <Tag> <!-- show -->
+        <Targets>
+            <TargetTypeValue>70</TargetTypeValue>
+        </Targets>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>The Simpsons</String>
+        </Simple>
+    </Tag>
+
+    <Tag> <!-- season -->
+        <Targets>
+            <TargetTypeValue>60</TargetTypeValue>
+        </Targets>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>1</String> <!-- season number -->
+        </Simple>
+        <Simple>
+            <Name>DATE_RELEASE</Name>
+            <String>1989</String>
+        </Simple>
+        <Simple>
+            <Name>TOTAL_PARTS</Name>
+            <String>8</String> <!-- number of lower level 50=episodes -->
+        </Simple>
+    </Tag>
+
+    <Tag> <!-- 5th episode -->
+        <Targets>
+            <TargetTypeValue>50</TargetTypeValue>
+            <ChapterUID>567</ChapterUID>
+        </Targets>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>5</String>
+        </Simple>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Lisa goes to school</String>
+        </Simple>
+    </Tag>
+    <Tag> <!-- episode intro -->
+        <Targets>
+            <TargetTypeValue>30</TargetTypeValue>
+            <ChapterUID>963</ChapterUID> <!-- the intro is the same for episode 1 & episode 2, so we target both chapters -->
+            <ChapterUID>159</ChapterUID>
+        </Targets>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>episode intro</String>
+        </Simple>
+    </Tag>
+    <Tag> <!-- episode #1 content -->
+        <Targets>
+            <TargetTypeValue>30</TargetTypeValue>
+            <ChapterUID>852</ChapterUID>
+        </Targets>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>episode 1 conten</String>
+        </Simple>
+    </Tag>
+
+    <Tag> <!-- 6th episode -->
+        <Targets>
+            <TargetTypeValue>50</TargetTypeValue>
+            <ChapterUID>678</ChapterUID>
+        </Targets>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>6</String>
+        </Simple>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Marge is pregnant</String>
+        </Simple>
+    </Tag>
+
+    <Tag> <!-- 7th episode -->
+        <Targets>
+            <TargetTypeValue>50</TargetTypeValue>
+            <ChapterUID>789</ChapterUID>
+        </Targets>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>7</String>
+        </Simple>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Homer is drunk</String>
+        </Simple>
+    </Tag>
+
+    <Tag> <!-- 8th episode -->
+        <Targets>
+            <TargetTypeValue>50</TargetTypeValue>
+            <ChapterUID>890</ChapterUID>
+        </Targets>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>8</String>
+        </Simple>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>BBQ time</String>
+        </Simple>
+    </Tag>
+</Tags>

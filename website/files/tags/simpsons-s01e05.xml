@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Tags SYSTEM "matroskatags.dtd">
+<Tags>
+    <!-- The Simpsons season 1 episode 5 in 1 file -->
+    <Tag> <!-- show -->
+        <Targets>
+            <TargetTypeValue>70</TargetTypeValue>
+        </Targets>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>The Simpsons</String>
+        </Simple>
+    </Tag>
+
+    <Tag> <!-- season -->
+        <Targets>
+            <TargetTypeValue>60</TargetTypeValue>
+        </Targets>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>1</String> <!-- season number -->
+        </Simple>
+        <Simple>
+            <Name>DATE_RELEASE</Name>
+            <String>1989</String>
+        </Simple>
+        <Simple>
+            <Name>TOTAL_PARTS</Name>
+            <String>8</String> <!-- number of lower level 50=episodes -->
+        </Simple>
+    </Tag>
+
+    <Tag> <!-- 5th episode -->
+        <Targets>
+            <TargetTypeValue>50</TargetTypeValue>
+            <ChapterUID>567</ChapterUID>
+        </Targets>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>5</String>
+        </Simple>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Lisa goes to school</String>
+        </Simple>
+    </Tag>
+</Tags>

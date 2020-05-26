@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Tags SYSTEM "matroskatags.dtd">
+<Tags>
+    <!-- album http://www.discogs.com/release/8788 -->
+    <Tag>
+        <Targets>
+            <TargetTypeValue>50</TargetTypeValue>
+        </Targets>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Bleep To Bleep</String>
+        </Simple>
+        <Simple>
+            <Name>ARTIST</Name>
+            <String>The Micronauts</String>
+        </Simple>
+        <Simple>
+            <Name>TOTAL_PARTS</Name>
+            <String>9</String>
+        </Simple>
+        <Simple>
+            <Name>DATE_RELEASE</Name>
+            <String>2000-03</String>
+        </Simple>
+    </Tag>
+    <!-- tracks -->
+    <Tag>
+        <Targets>
+            <TargetTypeValue>30</TargetTypeValue>
+            <ChapterUID>234567</ChapterUID>
+        </Targets>
+        <Simple>
+            <Name>TITLE</Name>
+            <String>Baby Wants To Rock</String>
+        </Simple>
+        <Simple>
+            <Name>PART_NUMBER</Name>
+            <String>2</String>
+        </Simple>
+    </Tag>
+</Tags>

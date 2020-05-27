@@ -1,4 +1,15 @@
-/website/_site
 /website/.jekyll-cache
 /website/.jekyll-metadata
 /website/.sass-cache
+/website/_site
+/website/technical/attachments.md
+/website/technical/chapters.md
+/website/technical/codec_specs.md
+/website/technical/cues.md
+/website/technical/diagram.md
+/website/technical/menu.md
+/website/technical/notes.md
+/website/technical/ordering.md
+/website/technical/streaming.md
+/website/technical/subtitles.md
+/website/technical/tagging.md

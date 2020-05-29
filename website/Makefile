@@ -16,30 +16,32 @@ CODEC_SPECS_DEST = technical/codec_specs.md
 
 MANUAL_DESTS = $(BASICS_DEST) $(BLOCK_ADDITIONS_DEST) $(CODEC_SPECS_DEST) technical/elements.html
 
-clean:
-	rm -f $(COPY_FROM_SPEC_DEST) $(MANUAL_DESTS)
+technical/%: ../specification/%
+	./fixup_content.sh < $< > $@
 
 technical/elements.html: ../specification/ebml_matroska.xml transforms/ebml_schema2spectable.xsl
 	( printf -- '---\ntitle: Matroska Element Specification\n---\n' ; \
 	  xsltproc \
 	    --stringparam GitRevision "$(shell git --no-pager log '--format=format:%h @ %ai' HEAD~..HEAD)" \
 	    transforms/ebml_schema2spectable.xsl \
-	    $< | sed -e 1d ) > $@
+	    $< | sed -e 1d ) | ./fixup_content.sh> $@
 
 $(BASICS_DEST): $(BASICS_SRC)
 	( printf -- "---\ntitle: Matroska Basics\n---\n" ; \
-	  sed -Ee '1,/mainmatter/d' $< ) > $@
+	  sed -Ee '1,/mainmatter/d' $< ) | ./fixup_content.sh > $@
 
 $(BLOCK_ADDITIONS_DEST): $(BLOCK_ADDITIONS_SRC)
-	cat $^ > $@
+	cat $^ | ./fixup_content.sh > $@
 
 $(CODEC_SPECS_DEST): $(CODEC_SPECS_SRC)
-	cat $^ > $@
+	cat $^ | ./fixup_content.sh > $@
+
+clean:
+	rm -f $(COPY_FROM_SPEC_DEST) $(MANUAL_DESTS)
 
 clean-copy: clean copy
 
-copy: $(MANUAL_DESTS)
-	cp -v $(COPY_FROM_SPEC_SRC) technical/
+copy: $(COPY_FROM_SPEC_DEST) $(MANUAL_DESTS)
 
 full-build: clean build
 

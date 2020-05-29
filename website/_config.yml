@@ -12,6 +12,7 @@ markdown: kramdown
 
 exclude:
   - Makefile
+  - fixup_content.sh
   - technical/elements_header.txt
   - transforms
 

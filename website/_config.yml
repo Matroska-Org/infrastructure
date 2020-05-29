@@ -12,6 +12,8 @@ markdown: kramdown
 
 exclude:
   - Makefile
+  - technical/elements_header.txt
+  - transforms
 
 defaults:
   - scope:

@@ -11,7 +11,7 @@ basis for `.webm` (WebM) files.
 
 ## Fast links
 
-* [Specifications](/specs/index.html)
-* [Source Code Repository](/info/source-code.html)
-* [Code License](/LICENSE.html)
-* [Legal Aspect](/info/lega.html)
+* [Specifications](/technical/basics.html)
+* [Source Code Repository](/source_code_repositories.html)
+* [Code License](/license.html)
+* [Legal Aspect](/legal.html)

@@ -49,11 +49,15 @@ $(TAGGING_DEST): $(TAGGING_SRC)
 clean:
 	rm -f $(COPY_FROM_SPEC_DEST) $(MANUAL_DESTS)
 
-clean-copy: clean copy
+clean-copy:
+	$(MAKE) clean
+	$(MAKE) copy
 
 copy: $(COPY_FROM_SPEC_DEST) $(MANUAL_DESTS)
 
-full-build: clean build
+full-build:
+	$(MAKE) clean
+	$(MAKE) build
 
 build: copy
 	jekyll build

@@ -1,7 +1,7 @@
 .PHONY: website
 .DEFAULT_GOAL := full-build
 
-COPY_FROM_SPEC  = diagram.md notes.md ordering.md chapters.md subtitles.md tagging.md attachments.md cues.md streaming.md menu.md
+COPY_FROM_SPEC  = diagram.md notes.md ordering.md chapters.md subtitles.md attachments.md cues.md streaming.md menu.md
 COPY_FROM_SPEC_SRC = $(patsubst %,../specification/%,$(COPY_FROM_SPEC))
 COPY_FROM_SPEC_DEST = $(patsubst transforms/,,$(patsubst %,technical/%,$(COPY_FROM_SPEC)))
 
@@ -14,7 +14,10 @@ BLOCK_ADDITIONS_DEST = technical/block_additional_mappings.md
 CODEC_SPECS_SRC = ../specification/codec_specs.md ../specification/wavpack.md
 CODEC_SPECS_DEST = technical/codec_specs.md
 
-MANUAL_DESTS = $(BASICS_DEST) $(BLOCK_ADDITIONS_DEST) $(CODEC_SPECS_DEST) technical/elements.html
+TAGGING_SRC = ../specification/tagging.md ../specification/transforms/matroska_tags2markdown4rfc.xsl ../specification/matroska_tags.xml ../specification/tagging_end.md
+TAGGING_DEST = technical/tagging.md
+
+MANUAL_DESTS = $(BASICS_DEST) $(BLOCK_ADDITIONS_DEST) $(CODEC_SPECS_DEST) $(TAGGING_DEST) technical/elements.html
 
 technical/%: ../specification/%
 	./fixup_content.sh < $< > $@
@@ -22,6 +25,7 @@ technical/%: ../specification/%
 technical/elements.html: ../specification/ebml_matroska.xml transforms/ebml_schema2spectable.xsl
 	( printf -- '---\ntitle: Matroska Element Specification\n---\n' ; \
 	  xsltproc \
+	    --nonet \
 	    --stringparam GitRevision "$(shell git --no-pager log '--format=format:%h @ %ai' HEAD~..HEAD)" \
 	    transforms/ebml_schema2spectable.xsl \
 	    $< | sed -e 1d ) | ./fixup_content.sh> $@
@@ -35,6 +39,12 @@ $(BLOCK_ADDITIONS_DEST): $(BLOCK_ADDITIONS_SRC)
 
 $(CODEC_SPECS_DEST): $(CODEC_SPECS_SRC)
 	cat $^ | ./fixup_content.sh > $@
+
+$(TAGGING_DEST): $(TAGGING_SRC)
+	( cat ../specification/tagging.md ; \
+	  xsltproc --nonet ../specification/transforms/matroska_tags2markdown4rfc.xsl ../specification/matroska_tags.xml ; \
+	  cat ../specification/tagging_end.md ) | \
+	./fixup_content.sh > $@
 
 clean:
 	rm -f $(COPY_FROM_SPEC_DEST) $(MANUAL_DESTS)

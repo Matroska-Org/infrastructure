@@ -14,8 +14,8 @@ License: LGPL 2.1 or later
 
 | Library | Version | Date | Download | git repository |
 |--|--|--|--|--|
-| libEBML | 1.3.10 | 2019-12-07 | <https://dl.matroska.org/downloads/libebml/> | <https://github.com/Matroska-Org/libebml> |
-| libMatroska | 1.5.2 | 2019-12-07 | <https://dl.matroska.org/downloads/libmatroska/> | <https://github.com/Matroska-Org/libmatroska> |
+| libEBML | 1.4.0 | 2020-06-27 | <https://dl.matroska.org/downloads/libebml/> | <https://github.com/Matroska-Org/libebml> |
+| libMatroska | 1.6.0 | 2020-06-27 | <https://dl.matroska.org/downloads/libmatroska/> | <https://github.com/Matroska-Org/libmatroska> |
 
 ## libEBML2 & libMatroska2
 

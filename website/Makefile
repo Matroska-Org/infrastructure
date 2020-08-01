@@ -28,7 +28,7 @@ technical/elements.html: ../specification/ebml_matroska.xml transforms/ebml_sche
 	    --nonet \
 	    --stringparam GitRevision "$(shell cd ../specification && git --no-pager log -n 1 '--format=format:%h @ %ai' HEAD)" \
 	    transforms/ebml_schema2spectable.xsl \
-	    $< | sed -e 1d ) | ./fixup_content.sh> $@
+	    $< ) | ./fixup_content.sh> $@
 
 $(BASICS_DEST): $(BASICS_SRC)
 	( printf -- "---\ntitle: Matroska Basics\n---\n" ; \

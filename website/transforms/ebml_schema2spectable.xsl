@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
    xmlns:ebml="https://ietf.org/cellar/ebml" exclude-result-prefixes="ebml">
-  <xsl:output encoding="UTF-8" method="xml" version="1.0" indent="yes"/>
+  <xsl:output encoding="UTF-8" method="xml" version="1.0" indent="yes" omit-xml-declaration="yes"/>
 
   <xsl:template match="ebml:EBMLSchema">
     <h1>Legend</h1>

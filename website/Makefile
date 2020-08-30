@@ -19,8 +19,10 @@ TAGGING_DEST = technical/tagging.md
 
 MANUAL_DESTS = $(BASICS_DEST) $(BLOCK_ADDITIONS_DEST) $(CODEC_SPECS_DEST) $(TAGGING_DEST) technical/elements.html
 
+FIXUP_CONTENT := sed -Ee 's!https?://(www.)?matroska.org/!/!g'
+
 technical/%: ../specification/%
-	./fixup_content.sh < $< > $@
+	$(FIXUP_CONTENT) < $< > $@
 
 technical/elements.html: ../specification/ebml_matroska.xml transforms/ebml_schema2spectable.xsl
 	( printf -- '---\ntitle: Matroska Element Specification\n---\n' ; \
@@ -28,23 +30,23 @@ technical/elements.html: ../specification/ebml_matroska.xml transforms/ebml_sche
 	    --nonet \
 	    --stringparam GitRevision "$(shell cd ../specification && git --no-pager log -n 1 '--format=format:%h @ %ai' HEAD)" \
 	    transforms/ebml_schema2spectable.xsl \
-	    $< ) | ./fixup_content.sh> $@
+	    $< ) | $(FIXUP_CONTENT) > $@
 
 $(BASICS_DEST): $(BASICS_SRC)
 	( printf -- "---\ntitle: Matroska Basics\n---\n" ; \
-	  sed -Ee '1,/mainmatter/d' $< ) | ./fixup_content.sh > $@
+	  sed -Ee '1,/mainmatter/d' $< ) | $(FIXUP_CONTENT) > $@
 
 $(BLOCK_ADDITIONS_DEST): $(BLOCK_ADDITIONS_SRC)
-	cat $^ | ./fixup_content.sh > $@
+	cat $^ | $(FIXUP_CONTENT) > $@
 
 $(CODEC_SPECS_DEST): $(CODEC_SPECS_SRC)
-	cat $^ | ./fixup_content.sh > $@
+	cat $^ | $(FIXUP_CONTENT) > $@
 
 $(TAGGING_DEST): $(TAGGING_SRC)
 	( cat ../specification/tagging.md ; \
 	  xsltproc --nonet ../specification/transforms/matroska_tags2markdown4rfc.xsl ../specification/matroska_tags.xml ; \
 	  cat ../specification/tagging_end.md ) | \
-	./fixup_content.sh > $@
+	$(FIXUP_CONTENT) > $@
 
 clean:
 	rm -f $(COPY_FROM_SPEC_DEST) $(MANUAL_DESTS)

@@ -19,7 +19,7 @@
             <String>6</String>
         </Simple>
         <Simple>
-            <Name>DATE_RELEASE</Name>
+            <Name>DATE_RELEASED</Name>
             <String>2000-03</String>
         </Simple>
     </Tag>

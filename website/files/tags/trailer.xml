@@ -28,7 +28,7 @@
             <String>5</String> <!-- season number -->
         </Simple>
         <Simple>
-            <Name>DATE_RELEASE</Name>
+            <Name>DATE_RELEASED</Name>
             <String>2010</String>
         </Simple>
     </Tag>

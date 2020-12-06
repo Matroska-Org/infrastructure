@@ -85,7 +85,7 @@ Now let's see how a basic tagging of this file would work ([XML version](../file
             *   TagName = _"TOTAL_PARTS"_
             *   TagString = "9"
         *   SimpleTag
-            *   TagName = "DATE_RELEASE"
+            *   TagName = "DATE_RELEASED"
             *   TagString = "2004-04"
     *   Tag
         *   Targets
@@ -209,7 +209,7 @@ Now let's split this one file in pieces :
             *   TagName = "TOTAL_PARTS"
             *   TagString = "9"
         *   SimpleTag
-            *   TagName = "DATE_RELEASE"
+            *   TagName = "DATE_RELEASED"
             *   TagString = "2004-04"
     *   Tag
         *   Targets (_no chapter target since the file may not contain one, but if it does you can use it_)
@@ -240,7 +240,7 @@ Now let's split this one file in pieces :
             *   TagName = "TOTAL_PARTS"
             *   TagString = "9"
         *   SimpleTag
-            *   TagName = "DATE_RELEASE"
+            *   TagName = "DATE_RELEASED"
             *   TagString = "2004-04"
     *   Tag
         *   Targets (_no chapter target since the file may not contain one, but if it does you can use it_)
@@ -277,7 +277,7 @@ In this case the 4 first tracks appear in one file.
             *   TagName = "TOTAL_PARTS"
             *   TagString = _"6"_
         *   SimpleTag
-            *   TagName = "DATE_RELEASE"
+            *   TagName = "DATE_RELEASED"
             *   TagString = "2004-04"
     *   Tag
         *   Targets (_include all chapters that match the first 4 tracks, if chapters are present in the file_)
@@ -359,7 +359,7 @@ In this case the 4 first tracks appear in one file.
             *   TagName = "TOTAL_PARTS"
             *   TagString = _"6"_
         *   SimpleTag
-            *   TagName = "DATE_RELEASE"
+            *   TagName = "DATE_RELEASED"
             *   TagString = "2004-04"
     *   Tag
         *   Targets (_no chapter target since the file may not contain one, but if it does you can use it_)
@@ -396,7 +396,7 @@ Many albums contain 2 CD in the box. Here is an example of a real-life case and 
             *   TagName = _"TOTAL_PARTS"_
             *   TagString = "19"
         *   SimpleTag
-            *   TagName = "DATE_RELEASE"
+            *   TagName = "DATE_RELEASED"
             *   TagString = "1994"
         *   SimpleTag
             *   TagName = "LABEL"
@@ -430,7 +430,7 @@ Many albums contain 2 CD in the box. Here is an example of a real-life case and 
             *   TagName = _"TOTAL_PARTS"_
             *   TagString = "19"
         *   SimpleTag
-            *   TagName = "DATE_RELEASE"
+            *   TagName = "DATE_RELEASED"
             *   TagString = "1994"
         *   SimpleTag
             *   TagName = "LABEL"
@@ -466,7 +466,7 @@ etc...
             *   TagName = _"TOTAL_PARTS"_
             *   TagString = "19"
         *   SimpleTag
-            *   TagName = "DATE_RELEASE"
+            *   TagName = "DATE_RELEASED"
             *   TagString = "1994"
         *   SimpleTag
             *   TagName = "LABEL"
@@ -506,7 +506,7 @@ This is almost the same as the previous example. But this time each CD in the pa
             *   TagName = _"TOTAL_PARTS"_
             *   TagString = "2"
         *   SimpleTag
-            *   TagName = "DATE_RELEASE"
+            *   TagName = "DATE_RELEASED"
             *   TagString = "2002-10-28"
         *   SimpleTag
             *   TagName = "LABEL"
@@ -556,7 +556,7 @@ This is almost the same as the previous example. But this time each CD in the pa
             *   TagName = _"TOTAL_PARTS"_
             *   TagString = "2"
         *   SimpleTag
-            *   TagName = "DATE_RELEASE"
+            *   TagName = "DATE_RELEASED"
             *   TagString = "2002-10-28"
         *   SimpleTag
             *   TagName = "LABEL"
@@ -608,7 +608,7 @@ etc... Now from second CD/mix :
             *   TagName = _"TOTAL_PARTS"_
             *   TagString = "2"
         *   SimpleTag
-            *   TagName = "DATE_RELEASE"
+            *   TagName = "DATE_RELEASED"
             *   TagString = "2002-10-28"
         *   SimpleTag
             *   TagName = "LABEL"
@@ -682,7 +682,7 @@ The example here is a Big Beat collection called "Big Beat Elite" by the Lacerba
             *   TagName = _"TOTAL_PARTS"_
             *   TagString = "3"
         *   SimpleTag
-            *   TagName = "DATE_RELEASE"
+            *   TagName = "DATE_RELEASED"
             *   TagString = "1997"
     *   Tag
         *   Targets (_tagging the CD information, no target since it covers the whole file_)
@@ -761,7 +761,7 @@ The example here is a Big Beat collection called "Big Beat Elite" by the Lacerba
             *   TagName = _"TOTAL_PARTS"_
             *   TagString = "3"
         *   SimpleTag
-            *   TagName = "DATE_RELEASE"
+            *   TagName = "DATE_RELEASED"
             *   TagString = "1997"
     *   Tag
         *   Targets (_tagging the CD information, no target since it covers the whole file_)
@@ -834,7 +834,7 @@ The example here is a Big Beat collection called "Big Beat Elite" by the Lacerba
             *   TagName = _"TOTAL_PARTS"_
             *   TagString = "3"
         *   SimpleTag
-            *   TagName = "DATE_RELEASE"
+            *   TagName = "DATE_RELEASED"
             *   TagString = "1997"
     *   Tag
         *   Targets (_tagging the CD information, no target since it covers the whole file_)
@@ -933,7 +933,7 @@ The example here is a Big Beat collection called "Big Beat Elite" by the Lacerba
             *   TagName = _"TOTAL_PARTS"_
             *   TagString = "3"
         *   SimpleTag
-            *   TagName = "DATE_RELEASE"
+            *   TagName = "DATE_RELEASED"
             *   TagString = "1998"
     *   Tag
         *   Targets
@@ -1012,7 +1012,7 @@ The example here is a Big Beat collection called "Big Beat Elite" by the Lacerba
             *   TagName = _"TOTAL_PARTS"_
             *   TagString = "3"
         *   SimpleTag
-            *   TagName = "DATE_RELEASE"
+            *   TagName = "DATE_RELEASED"
             *   TagString = "1998"
     *   Tag
         *   Targets
@@ -1095,7 +1095,7 @@ The example here is a Big Beat collection called "Big Beat Elite" by the Lacerba
             *   TagName = _"TOTAL_PARTS"_
             *   TagString = "3"
         *   SimpleTag
-            *   TagName = "DATE_RELEASE"
+            *   TagName = "DATE_RELEASED"
             *   TagString = "1998"
     *   Tag
         *   Targets

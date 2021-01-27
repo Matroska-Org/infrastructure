@@ -11,7 +11,7 @@ software, here is how to talk to us:
 ## Email
 
 Question? Have something you would like to add? Feel free to email us
-directly: contact\@matroska.org
+directly: contact@matroska.org
 
 ## Mailing Lists
 

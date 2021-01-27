@@ -37,7 +37,7 @@
             <String>3</String> <!-- the amount of elements at the lower level which is 50=album/disc -->
         </Simple>
         <Simple>
-            <Name>DATE_RELEASE</Name>
+            <Name>DATE_RELEASED</Name>
             <String>1998</String>
         </Simple>
     </Tag>

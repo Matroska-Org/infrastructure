@@ -23,7 +23,7 @@ Here is a very basic example of how you would add the title, director, date of r
             *   TagName = "DIRECTOR"
             *   TagString = "David Lynch"
         *   SimpleTag
-            *   TagName = "DATE_RELEASE"
+            *   TagName = "DATE_RELEASED"
             *   TagString = "1984"
         *   SimpleTag
             *   TagName = "COMMENT"
@@ -88,7 +88,7 @@ Now let's see how a basic tagging of this file would work ([XML version](../file
             *   _TargetTypeValue = 60_
             *   _TargetType = "SEASON"_
         *   SimpleTag
-            *   TagName = "DATE_RELEASE"
+            *   TagName = "DATE_RELEASED"
             *   TagString = "1989"
         *   SimpleTag (_note there is no TOTAL_PARTS of seasons as the series is not stopped_)
             *   TagName = "PART_NUMBER"
@@ -190,7 +190,7 @@ Now let's split this first season file in 2 pieces (episode 1-4 and 5-8). The bi
             *   _TargetTypeValue = 60_
             *   _TargetType = "SEASON"_
         *   SimpleTag
-            *   TagName = "DATE_RELEASE"
+            *   TagName = "DATE_RELEASED"
             *   TagString = "1989"
         *   SimpleTag (_note there is no TOTAL_PARTS of seasons as the series is not stopped_)
             *   TagName = "PART_NUMBER"
@@ -276,7 +276,7 @@ Now let's split this first season file in 2 pieces (episode 1-4 and 5-8). The bi
             *   _TargetTypeValue = 60_
             *   _TargetType = "SEASON"_
         *   SimpleTag
-            *   TagName = "DATE_RELEASE"
+            *   TagName = "DATE_RELEASED"
             *   TagString = "1989"
         *   SimpleTag (_note there is no TOTAL_PARTS of seasons as the series is not stopped_)
             *   TagName = "PART_NUMBER"
@@ -328,7 +328,7 @@ In this case we have 8 files, one for each episode.
             *   _TargetTypeValue = 60_
             *   _TargetType = "SEASON"_
         *   SimpleTag
-            *   TagName = "DATE_RELEASE"
+            *   TagName = "DATE_RELEASED"
             *   TagString = "1989"
         *   SimpleTag (_note there is no TOTAL_PARTS of seasons as the series is not stopped_)
             *   TagName = "PART_NUMBER"
@@ -379,7 +379,7 @@ In this case we have 8 files, one for each episode.
             *   _TargetTypeValue = 60_
             *   _TargetType = "SEASON"_
         *   SimpleTag
-            *   TagName = "DATE_RELEASE"
+            *   TagName = "DATE_RELEASED"
             *   TagString = "1989"
         *   SimpleTag (_note there is no TOTAL_PARTS of seasons as the series is not stopped_)
             *   TagName = "PART_NUMBER"
@@ -416,7 +416,7 @@ etc…
             *   _TargetTypeValue = 60_
             *   _TargetType = "SEASON"_
         *   SimpleTag
-            *   TagName = "DATE_RELEASE"
+            *   TagName = "DATE_RELEASED"
             *   TagString = "1989"
         *   SimpleTag (_note there is no TOTAL_PARTS of seasons as the series is not stopped_)
             *   TagName = "PART_NUMBER"
@@ -464,7 +464,7 @@ This example is a little more complex as it uses tag nesting. This is the [Dexte
             *   _TargetTypeValue = 60_
             *   _TargetType = "SEASON"_
         *   SimpleTag
-            *   TagName = "DATE_RELEASE"
+            *   TagName = "DATE_RELEASED"
             *   TagString = "2010"
         *   SimpleTag (_note there is no TOTAL_PARTS of seasons as the series is not stopped_)
             *   TagName = "PART_NUMBER"

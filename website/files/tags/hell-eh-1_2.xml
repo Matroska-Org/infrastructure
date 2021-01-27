@@ -19,7 +19,7 @@
             <String>2</String> <!-- the amount of elements at the lower level which is 40=session -->
         </Simple>
         <Simple>
-            <Name>DATE_RELEASE</Name>
+            <Name>DATE_RELEASED</Name>
             <String>2002-10-28</String>
         </Simple>
         <Simple>

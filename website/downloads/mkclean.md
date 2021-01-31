@@ -13,9 +13,6 @@ their file. It can also optionally remux the Cluster blocks to start
 each boundary with a keyframe and the matching audio/subtitle blocks
 for that keyframe.
 
-Also comes with `mkWDclean` to modify files in a way they can play in
-broken/incomplete players.
-
 ## License
 
 The program is licensed with the BSD license. So you can modify it in
@@ -26,10 +23,14 @@ mkclean depends on both libebml2 (BSD license) and libmatroska2 (BSD
 license), which relies on the Core-C (BSD license) Project, which adds
 a low level object based API on top of the ANSI C language.
 
+mkclean can be built with minilzo support whic is GPL. In that case the
+license of the binary becomes GPL.
+
 ## Download
 
-You can download the [latest source package
-(v0.8.10)](https://sourceforge.net/projects/matroska/files/mkclean/mkclean-0.8.10.tar.bz2/download),
-[ChangeLog](https://sourceforge.net/projects/matroska/files/mkclean/README.txt/view)
-or a [pre-built binary for
-win64](https://sourceforge.net/projects/matroska/files/mkclean/mkclean-0.8.10-win64.zip/download).
+The latest release is v0.9.0 from 2021-01-31. You can [view the
+ChangeLog](https://sourceforge.net/projects/matroska/files/mkclean/ChangeLog.txt/view),
+download the [source
+package](https://sourceforge.net/projects/matroska/files/mkclean/mkclean-0.9.0.tar.bz2/download)
+or a pre-built [binary for
+win64](https://sourceforge.net/projects/matroska/files/mkclean/mkclean-0.9.0-win64.zip/download).

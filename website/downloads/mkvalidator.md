@@ -19,11 +19,14 @@ themselves rely on
 [Core-C](https://github.com/Matroska-Org/foundation-source/tree/master/corec)
 (BSD) which adds an object API on top of the C language.
 
+mkvalidator can be built with minilzo support whic is GPL. In that case the
+license of the binary becomes GPL.
+
 ## Download
 
-The latest release is v0.5.2 from 2017-08-22. You can [view the
-ChangeLog](https://github.com/Matroska-Org/foundation-source/blob/master/mkvalidator/ChangeLog.txt),
+The latest release is v0.6.0 from 2021-01-31. You can [view the
+ChangeLog](https://sourceforge.net/projects/matroska/files/mkvalidator/ChangeLog.txt/view),
 download the [source
-package](https://sourceforge.net/projects/matroska/files/mkvalidator/mkvalidator-0.5.2.tar.bz2/download)
+package](https://sourceforge.net/projects/matroska/files/mkvalidator/mkvalidator-0.6.0.tar.bz2/download)
 or a pre-built [binary for
-win64](https://sourceforge.net/projects/matroska/files/mkvalidator/mkvalidator-0.5.2-win64.zip/download).
+win64](https://sourceforge.net/projects/matroska/files/mkvalidator/mkvalidator-0.6.0-win64.zip/download).

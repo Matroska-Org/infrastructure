@@ -32,8 +32,7 @@ mailing list.
 ## IRC (Internet Relay Chat)
 
 Our developers meet on an IRC channel on
-[irc.freenode.net](irc://irc.freenode.net:6667/matroska), channel
-`#matroska`
+[libera.chat](https://libera.chat), channel `#matroska`
 
 ## Social Networks
 

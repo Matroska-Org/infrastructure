@@ -41,7 +41,7 @@ sponsor us to promote the use and evolution of Matroska
 further. Please [contact us](contact.html) in such a case.
 
 You can also make sure that your product(s) meet some minimum
-requirements by testing with our [validator](downloads.html) and/or
-[test suites](test_suite.html).
+requirements by testing with our [validator](downloads/mkvalidator.html) and/or
+[test suites](downloads/test_suite.html).
 
 The logos and Trademarks are owned by Matroska.

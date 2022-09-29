@@ -1,3 +1,5 @@
 #!/bin/sh
 
-exec sed -Ee 's!https?://(www.)?matroska.org/!/!g'
+exec sed -E \
+     -e 's!https?://(www.)?matroska.org/!/!g' \
+     -e 's!^Table:!\nTable:!'

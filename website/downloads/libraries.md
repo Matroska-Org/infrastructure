@@ -17,6 +17,8 @@ License: LGPL 2.1 or later
 | libEBML | 1.4.2 | 2021-02-18 | <https://dl.matroska.org/downloads/libebml/> | <https://github.com/Matroska-Org/libebml> |
 | libMatroska | 1.6.3 | 2021-02-18 | <https://dl.matroska.org/downloads/libmatroska/> | <https://github.com/Matroska-Org/libmatroska> |
 
+The source code archives are signed with [GPG key ID 0x0F92290A 445B9007](gpg-pub-moritzbunkus.txt), belonging to one of the Matroska maintainers, Moritz Bunkus.
+
 ## libEBML2 & libMatroska2
 
 These are low-level C libraries for reading and writing Matroska

@@ -14,8 +14,8 @@ License: LGPL 2.1 or later
 
 | Library | Version | Date | Download | git repository |
 |--|--|--|--|--|
-| libEBML | 1.4.3 | 2022-09-30 | <https://dl.matroska.org/downloads/libebml/> | <https://github.com/Matroska-Org/libebml> |
-| libMatroska | 1.7.0 | 2022-09-30 | <https://dl.matroska.org/downloads/libmatroska/> | <https://github.com/Matroska-Org/libmatroska> |
+| libEBML | 1.4.4 | 2022-10-08 | <https://dl.matroska.org/downloads/libebml/> | <https://github.com/Matroska-Org/libebml> |
+| libMatroska | 1.7.1 | 2022-10-08 | <https://dl.matroska.org/downloads/libmatroska/> | <https://github.com/Matroska-Org/libmatroska> |
 
 The source code archives are signed with [GPG key ID 0x0F92290A 445B9007](gpg-pub-moritzbunkus.txt), belonging to one of the Matroska maintainers, Moritz Bunkus.
 

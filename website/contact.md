@@ -13,21 +13,11 @@ software, here is how to talk to us:
 Question? Have something you would like to add? Feel free to email us
 directly: contact@matroska.org
 
-## Mailing Lists
+## Mailing List
 
-***matroska*** User ML: <matroska-users@lists.matroska.org>
+**CELLAR** mailing list: <cellar@ietf.org>
 
-***matroska*** General ML: <matroska-general@lists.matroska.org>
-
-***matroska*** Development ML: <matroska-devel@lists.matroska.org>
-
-**CELLAR** ML: <cellar@ietf.org>
-
-To subscribe to these mailing list go
-[here](https://lists.matroska.org/cgi-bin/mailman/listinfo) for the
-Matroska mailing lists and
-[here](https://www.ietf.org/mailman/listinfo/cellar) for the CELLAR
-mailing list.
+To subscribe to the list go [here](https://www.ietf.org/mailman/listinfo/cellar).
 
 ## IRC (Internet Relay Chat)
 

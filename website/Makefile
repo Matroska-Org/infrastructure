@@ -1,7 +1,7 @@
 .PHONY: website
 .DEFAULT_GOAL := full-build
 
-COPY_FROM_SPEC  = notes.md ordering.md chapters.md subtitles.md attachments.md cues.md streaming.md menu.md
+COPY_FROM_SPEC  = notes.md ordering.md chapters.md subtitles.md attachments.md cues.md streaming.md menu.md chapter_codecs.md control.md matroska_implement.md tags-precedence.md
 COPY_FROM_SPEC_SRC = $(patsubst %,../specification/%,$(COPY_FROM_SPEC))
 COPY_FROM_SPEC_DEST = $(patsubst transforms/,,$(patsubst %,technical/%,$(COPY_FROM_SPEC)))
 

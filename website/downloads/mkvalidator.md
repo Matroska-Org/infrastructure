@@ -10,14 +10,14 @@ errors/warnings in the command line.
 
 ## License
 
-The program is licensed with the BSD license. So you can modify it in
+The program is licensed with the BSD-3-Clause license. So you can modify it in
 any way you want. However we ask that you generously give back your
 enhancements to the community if you think it can help.
 
-mkvalidator depends on libebml2 (BSD) and libmatroska2 (BSD) that
+mkvalidator depends on libebml2 (BSD-3-Clause) and libmatroska2 (BSD-3-Clause) that
 themselves rely on
 [Core-C](https://github.com/Matroska-Org/foundation-source/tree/master/corec)
-(BSD) which adds an object API on top of the C language.
+(BSD-3-Clause) which adds an object API on top of the C language.
 
 mkvalidator can be built with minilzo support which is GPL. In that case the
 license of the binary becomes GPL.

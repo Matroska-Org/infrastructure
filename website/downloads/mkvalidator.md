@@ -19,8 +19,8 @@ themselves rely on
 [Core-C](https://github.com/Matroska-Org/foundation-source/tree/master/corec)
 (BSD-3-Clause) which adds an object API on top of the C language.
 
-mkvalidator can be built with minilzo support which is GPL. In that case the
-license of the binary becomes GPL.
+mkvalidator uses libmatroska2 which can be built with minilzo support which is GPL-2.0-or-later. In that case the
+license of the binary becomes GPL-2.0-or-later. This is turned on by default.
 
 ## Download
 

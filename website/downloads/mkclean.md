@@ -23,8 +23,8 @@ mkclean depends on both libebml2 (BSD-3-Clause license) and libmatroska2 (BSD-3-
 license), which relies on the Core-C (BSD-3-Clause license) Project, which adds
 a low level object based API on top of the ANSI C language.
 
-mkclean can be built with minilzo support which is GPL. In that case the
-license of the binary becomes GPL.
+mkclean uses libmatroska2 which can be built with minilzo support which is GPL-2.0-or-later. In that case the
+license of the binary becomes GPL-2.0-or-later. This is turned on by default.
 
 ## Download
 

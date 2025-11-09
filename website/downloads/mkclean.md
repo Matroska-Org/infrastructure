@@ -15,16 +15,16 @@ for that keyframe.
 
 ## License
 
-The program is licensed with the BSD license. So you can modify it in
+The program is licensed with the BSD-3-Clause license. So you can modify it in
 any way you want. However we ask that you generously give back your
 enhancements to the community if you think it can help.
 
-mkclean depends on both libebml2 (BSD license) and libmatroska2 (BSD
-license), which relies on the Core-C (BSD license) Project, which adds
+mkclean depends on both libebml2 (BSD-3-Clause license) and libmatroska2 (BSD-3-Clause
+license), which relies on the Core-C (BSD-3-Clause license) Project, which adds
 a low level object based API on top of the ANSI C language.
 
-mkclean can be built with minilzo support whic is GPL. In that case the
-license of the binary becomes GPL.
+mkclean uses libmatroska2 which can be built with minilzo support which is GPL-2.0-or-later. In that case the
+license of the binary becomes GPL-2.0-or-later. This is turned on by default.
 
 ## Download
 

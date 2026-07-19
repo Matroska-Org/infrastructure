@@ -41,7 +41,7 @@ technical/elements.html: ../specification/ebml_matroska.xml transforms/ebml_sche
 	( printf -- '---\ntitle: Matroska Element Specification\n---\n' ; \
 	  xsltproc \
 	    --nonet \
-	    --stringparam GitRevision "$(shell cd ../specification && git describe --tags)" \
+	    --stringparam GitRevision "$(shell cd ../specification && git --no-pager log -n 1 '--format=format:%h @ %ai' HEAD)" \
 	    transforms/ebml_schema2spectable.xsl \
 	    $< ) | ./fixup_content.sh> $@
 
